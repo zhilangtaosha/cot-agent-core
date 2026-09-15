@@ -6,10 +6,6 @@ English | [中文](README.md)
 
 A terminal AI coding assistant written in Rust, inspired by [pi-coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent). Provides an interactive TUI interface with support for multiple LLM providers.
 
-## Upstream and Acknowledgements
-
-This project uses [cot-agent-core](https://github.com/zhilangtaosha/cot-agent-core) as its upstream source. Thanks to the original authors and all contributors for their open-source work.
-
 ## Features
 
 - **Multi-Provider Support**: OpenAI, Anthropic, Google, Moonshot, Ollama, Azure OpenAI, Mistral, Groq
@@ -288,6 +284,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
+- This project uses [pi-rs](https://github.com/jshachm/pi-rs) as its upstream source. Thanks to the original authors and all contributors for their open-source work.
 - Inspired by [pi-coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent)
 - Terminal UI built with [ratatui](https://github.com/ratatui-org/ratatui)
 - CLI parsing uses [clap](https://github.com/clap-rs/clap)
