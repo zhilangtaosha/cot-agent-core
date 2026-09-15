@@ -6,6 +6,10 @@
 
 一款用 Rust 编写的终端 AI 编程助手，灵感来自 [pi-coding-agent](https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent)。提供交互式 TUI 界面，支持多种 LLM 提供商。
 
+## 上游来源与致谢
+
+本项目使用 [cot-agent-core](https://github.com/zhilangtaosha/cot-agent-core) 作为上游来源，感谢原作者及所有贡献者的开源工作。
+
 ## 功能特性
 
 - **多提供商支持**：OpenAI、Anthropic、Google、Moonshot（月之暗面）、Ollama、Azure OpenAI、Mistral、Groq
@@ -20,8 +24,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/pi-rs.git
-cd pi-rs
+git clone https://github.com/zhilangtaosha/cot-agent-core.git
+cd cot-agent-core
 
 # 构建
 cargo build --release
@@ -38,8 +42,8 @@ export MOONSHOT_API_KEY="your-api-key"
 ### 从源码构建
 
 ```bash
-git clone https://github.com/yourusername/pi-rs.git
-cd pi-rs
+git clone https://github.com/zhilangtaosha/cot-agent-core.git
+cd cot-agent-core
 cargo build --release
 ```
 
